@@ -48,6 +48,6 @@ for (j in 1:1000) {
 answer <- guesses[which(guesses$expected == max(guesses$expected)),]
 
 
-png(file="expectedresults.png",bg="transparent")
+png(file="expectedresults.png", bg="white")
 plot(guesses,type="l",ylab = "expected earnings ($)", xlab = "starting guess ($)")
 dev.off()
